@@ -52,6 +52,20 @@ currency-converter/
   ```
 - Si no defines la clave, el proyecto usará **exchangerate.host** automáticamente.
 
+
+## 🌐 Proveedor principal: Exchange Rate API (recomendado)
+Usamos **Exchange Rate API** por sus tasas de cambio en **tiempo real**, lo que proporciona información **precisa y actualizada** para las conversiones. Es **gratuita** y **muy fácil de usar**, garantizando un acceso **confiable y eficiente** a los datos esenciales del proyecto.
+
+### Obtención de la clave (API Key)
+1. Ingresa tu correo electrónico y regístrate (como se muestra en la guía del curso).
+2. Recibirás tu **API Key** en el correo.
+3. Configúrala como variable de entorno `EXCHANGE_RATE_API_KEY` o en el archivo `.env` en la raíz del proyecto.
+
+> En este proyecto ya dejamos un `.env` de ejemplo **preconfigurado** para que puedas ejecutar de inmediato. **Cámbialo por tu propia clave** si vas a publicar el código en GitHub.
+
+**Registro sugerido:** accede al enlace del curso y realiza tu registro:  
+*(ver indicaciones del curso de Alura para el paso a paso de obtención de la API Key)*
+
 ## ⚙️ Requisitos
 - **Java 17+**
 - **Maven 3.8+**
